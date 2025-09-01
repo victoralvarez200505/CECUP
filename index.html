@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centro de Estudiantes CECUP</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="Imagenes/Logo.jpg" alt="Centro de Estudiantes CECUP Logo">
+          <span>Centro de Estudiantes CECUP</span>
+        </a>
+        <div class="nav-links">
+          <a href="#inicio" class="active">Inicio</a>
+          <a href="#noticias">Noticias</a>
+          <a href="#eventos">Eventos</a>
+          <a href="#carreras">Carreras</a>
+          <a href="#galeria">Galería</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#sanciones">Sanciones</a>
+          <a href="#elecciones">Elecciones</a>
+          <a href="#ivu">IVU</a>
+          <a href="#bedelias">Bedelías</a>
+          <a href="#cecup">CECUP</a>
+          <a href="#contacto">Contacto</a>
+          <a href="#login" class="admin-login" id="adminLoginBtn"><i class="fas fa-lock"></i> Iniciar Sesión</a>
+          <a href="#" class="logout-btn" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
+        </div>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- Portada Completa Mejorada -->
+    <section class="full-cover" id="inicio">
+
+      <!-- Carrusel de imágenes de fondo -->
+
+      <div class="particles" id="particles"></div>
+      <div class="cover-content">
+        <h1 class="editable" data-id="portada-title">Centro de Estudiantes CECUP</h1>
+        <p class="editable" data-id="portada-text">Representando y apoyando a los estudiantes del Cenur Litoral Norte
+          Sede Paysandú</p>
+        <div class="hero-buttons">
+          <a href="#noticias" class="btn">Ver Novedades</a>
+          <a href="#contacto" class="btn btn-secondary">Contacto</a>
+        </div>
+      </div>
+      <button class="change-cover-btn" id="changeCoverBtn"><i class="fas fa-camera"></i> Cambiar Imagen</button>
+      <div class="carousel-bg">
+        <div class="carousel-container">
+          <div class="carousel-slides">
+
+
+            <div class="carousel-slide active">
+              <img src="Imagenes/Frente.jpg" alt="Logo CECUP" data-slide="0">
+              <button class="edit-carousel-img-btn" data-slide="0"><i class="fas fa-edit"></i></button>
+            </div>
+
+            <div class="carousel-slide">
+              <img src="Imagenes/cecup.jpg" alt="Estudiantes en clase" data-slide="1">
+              <button class="edit-carousel-img-btn" data-slide="1"><i class="fas fa-edit"></i></button>
+            </div>
+
+            <div class="carousel-slide">
+              <img src="Imagenes/CEEF.jpg" alt="Estudiantes en clase" data-slide="1">
+              <button class="edit-carousel-img-btn" data-slide="1"><i class="fas fa-edit"></i></button>
+            </div>
+
+
+
+            <div class="carousel-slide">
+              <img src="Imagenes/cecup.jpg" alt="Estudiantes en clase" data-slide="1">
+              <button class="edit-carousel-img-btn" data-slide="1"><i class="fas fa-edit"></i></button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2 class="editable" data-id="hero-title">Bienvenidos al Centro de Estudiantes CECUP</h2>
+          <p class="editable" data-id="hero-text">Somos el órgano representativo de los estudiantes ante las autoridades
+            universitarias y la sociedad. Trabajamos para mejorar tu experiencia universitaria.</p>
+          <a href="#cecup" class="btn">Conócenos</a>
+        </div>
+        <div class="hero-image">
+          <img src="Imagenes/logo_nombre.jpg" alt="Estudiantes reunidos" class="editable-image" data-id="hero-image">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Noticias Section -->
+    <section id="noticias" class="noticias">
+      <div class="container">
+        <h2 class="section-title editable" data-id="noticias-title">Últimas Noticias</h2>
+        <div class="noticias-grid">
+          <div class="noticia-card">
+            <div class="noticia-image">
+              <img src="https://via.placeholder.com/300x200/6c8ebf/ffffff?text=Noticia+1" class="editable-image"
+                data-id="noticia1-image">
+            </div>
+            <div class="noticia-content">
+              <h3 class="editable" data-id="noticia1-title">Reunión con autoridades</h3>
+              <p class="editable" data-id="noticia1-text">El próximo lunes tendremos una reunión con el rectorado para
+                discutir los cambios en el reglamento estudiantil.</p>
+              <span class="noticia-fecha editable" data-id="noticia1-fecha">15 de Julio, 2023</span>
+            </div>
+          </div>
+          <div class="noticia-card">
+            <div class="noticia-image">
+              <img src="https://via.placeholder.com/300x200/6c8ebf/ffffff?text=Noticia+2" class="editable-image"
+                data-id="noticia2-image">
+            </div>
+            <div class="noticia-content">
+              <h3 class="editable" data-id="noticia2-title">Nuevos talleres disponibles</h3>
+              <p class="editable" data-id="noticia2-text">Inscripciones abiertas para los talleres de fotografía,
+                programación y debate. Cupos limitados.</p>
+              <span class="noticia-fecha editable" data-id="noticia2-fecha">10 de Julio, 2023</span>
+            </div>
+          </div>
+          <div class="noticia-card">
+            <div class="noticia-image">
+              <img src="https://via.placeholder.com/300x200/6c8ebf/ffffff?text=Noticia+3" class="editable-image"
+                data-id="noticia3-image">
+            </div>
+            <div class="noticia-content">
+              <h3 class="editable" data-id="noticia3-title">Resultados de las elecciones</h3>
+              <p class="editable" data-id="noticia3-text">Conoce a los nuevos representantes del centro de estudiantes
+                para el período 2023-2024.</p>
+              <span class="noticia-fecha editable" data-id="noticia3-fecha">5 de Julio, 2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eventos Section -->
+    <section id="eventos" class="eventos">
+      <div class="container">
+        <h2 class="section-title editable" data-id="eventos-title">Próximos Eventos</h2>
+        <div class="eventos-calendario">
+          <div class="evento-card">
+            <div class="evento-fecha">
+              <span class="dia editable" data-id="evento1-dia">25</span>
+              <span class="mes editable" data-id="evento1-mes">Jul</span>
+            </div>
+            <div class="evento-info">
+              <h3 class="editable" data-id="evento1-titulo">Feria de Empleo</h3>
+              <p class="editable" data-id="evento1-desc">Empresas locales vendrán a ofrecer oportunidades laborales para
+                estudiantes.</p>
+              <span class="evento-hora editable" data-id="evento1-hora">10:00 - 16:00 | Patio Central</span>
+            </div>
+          </div>
+          <div class="evento-card">
+            <div class="evento-fecha">
+              <span class="dia editable" data-id="evento2-dia">30</span>
+              <span class="mes editable" data-id="evento2-mes">Jul</span>
+            </div>
+            <div class="evento-info">
+              <h3 class="editable" data-id="evento2-titulo">Charla: Educación Financiera</h3>
+              <p class="editable" data-id="evento2-desc">Aprende a manejar tus finanzas personales con expertos en el
+                tema.</p>
+              <span class="evento-hora editable" data-id="evento2-hora">15:00 - 17:00 | Aula Magna</span>
+            </div>
+          </div>
+          <div class="evento-card">
+            <div class="evento-fecha">
+              <span class="dia editable" data-id="evento3-dia">5</span>
+              <span class="mes editable" data-id="evento3-mes">Ago</span>
+            </div>
+            <div class="evento-info">
+              <h3 class="editable" data-id="evento3-titulo">Torneo de Deportes</h3>
+              <p class="editable" data-id="evento3-desc">Inscríbete en fútbol, básquet o voleibol. ¡Premios para los
+                ganadores!</p>
+              <span class="evento-hora editable" data-id="evento3-hora">09:00 - 18:00 | Canchas Deportivas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Carreras Section -->
+    <section id="carreras" class="carreras">
+      <div class="container">
+        <h2 class="section-title editable" data-id="carreras-title">Oferta Académica</h2>
+
+        <div class="carreras-tabs">
+          <button class="tab-btn active" data-tab="grado-tecnologias">Tecnologías</button>
+          <button class="tab-btn" data-tab="grado-salud">Salud</button>
+          <button class="tab-btn" data-tab="grado-social">Social</button>
+          <button class="tab-btn" data-tab="tecnicaturas"> Tecnologos y Tecnicaturas </button>
+          <button class="tab-btn" data-tab="otros">Otras Opciones</button>
+        </div>
+
+
+        <div class="carreras-content active" id="grado-tecnologias">
+          <h3 class="editable" data-id="grado-tecnologias-title">Área de Tecnologías y Ciencias de la Naturaleza y el
+            Hábitat</h3>
+          <div class="carreras-grid">
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/324-ingeniero-agronomo">
+                <h4 class="editable" data-id="carrera1">Ingeniero Agrónomo</h4>
+              </a>
+            </div>
+
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/327-ingenieria-biologica">
+                <h4 class="editable" data-id="carrera2">Licenciatura en Ingeniería Biológica</h4>
+              </a>
+            </div>
+
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/322-tecnologo-en-informatica">
+                <h4 class="editable" data-id="carrera2">Tecnolo en Informática</h4>
+              </a>
+            </div>
+
+            <div class="carrera-item">
+              <a href="https://litoralnorte.udelar.edu.uy/llamados/1118-ingenieria-en-computacion">
+                <h4 class="editable" data-id="carrera2">Ingeniería en computacion </h4>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carreras-content" id="grado-salud">
+          <h3 class="editable" data-id="grado-salud-title">Área Ciencias de la Salud</h3>
+          <div class="carreras-grid">
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/paginas/431-doctor-en-medicina">
+                <h4 class="editable" data-id="carrera3">Doctor en Medicina</h4>
+              </a>
+            </div>
+            <div class="carrera-item">
+              <a
+                href="https://www.litoralnorte.udelar.edu.uy/bedelia-de-grado/estudiar-en-cenurln-licenciatura-en-biologia-humana">
+                <h4 class="editable" data-id="carrera4">Licenciatura en Biología Humana</h4>
+              </a>
+
+            </div>
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/paginas/315-educacion-fisica">
+                <h4 class="editable" data-id="carrera5">Licenciatura en Educación Física</h4>
+              </a>
+
+            </div>
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/bedelia-de-grado/estudiar-licenciatura-en-enfermeria">
+                <h4 class="editable" data-id="carrera6">Licenciatura en Enfermería</h4>
+              </a>
+            </div>
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/paginas/309-fisioterapia">
+                <h4 class="editable" data-id="carrera7">Licenciatura en Fisioterapia</h4>
+              </a>
+
+            </div>
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/bedelia-de-grado/estudiar-licenciado-en-imagenologia">
+                <h4 class="editable" data-id="carrera8">Licenciatura en Imagenología</h4>
+              </a>
+
+            </div>
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/bedelia-de-grado/estudiar-laboratorio-clinico">
+                <h4 class="editable" data-id="carrera9">Licenciatura en Laboratorio Clínico</h4>
+              </a>
+            </div>
+            <div class="carrera-item">
+              <a href="https://udelar.edu.uy/carrerasinterior/licenciatura-en-nutricion/">
+                <h4 class="editable" data-id="carrera10">Licenciatura en Nutrición</h4>
+              </a>
+            </div>
+
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/bedelia-de-grado/estudiar-psicomotricidad">
+                <h4 class="editable" data-id="carrera11">Licenciatura en Psicomotricidad</h4>
+              </a>
+
+            </div>
+            <div class="carrera-item">
+              <a
+                href="https://www.litoralnorte.udelar.edu.uy/bedelia-de-grado/estudiar-ciclos-iniciales-optativos-area-salud">
+                <h4 class="editable" data-id="carrera12">Ciclo Inicial Optativo Área Salud</h4>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carreras-content" id="grado-social">
+          <h3 class="editable" data-id="grado-social-title">Área Social y Artística</h3>
+          <div class="carreras-grid">
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/bedelia-de-grado/estudiar-licenciatura-en-trabajo-social">
+                <h4 class="editable" data-id="carrera13">Licenciatura en Trabajo Social</h4>
+              </a>
+
+            </div>
+            <div class="carrera-item">
+              <a href="https://litoralnorte.udelar.edu.uy/llamados/374-lic-ccss">
+                <h4 class="editable" data-id="carrera14">Licenciatura en Ciencias Sociales</h4>
+              </a>
+
+            </div>
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/bedelia/requisitos-de-inscripcion">
+                <h4 class="editable" data-id="carrera15">Licenciatura en Turismo</h4>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carreras-content" id="tecnicaturas"> 
+          <div class="carreras-grid">
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/paginas/323-tecnologo-quimico">
+                <h4 class="editable" data-id="tecnicatura1">Tecnólogo Químico</h4>
+              </a>
+            </div>
+            <div class="carrera-item">
+              <a href="https://litoralnorte.udelar.edu.uy/llamados/321-tecnologo-mecanico">
+                <h4 class="editable" data-id="tecnicatura2">Tecnólogo Industrial Mecánico</h4>
+              </a>
+            </div>
+
+            <div class="carrera-item">
+              <a href="https://www.litoralnorte.udelar.edu.uy/322-tecnologo-en-informatica"><h4 class="editable" data-id="tecnicatura3">Tecnólogo en Informática</h4></a>
+              
+            </div>
+
+            <div class="carrera-item">
+              <h4 class="editable" data-id="tecnicatura4">Tecnólogo en Control Ambiental</h4>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="tecnicatura5">Curso de Guardavidas</h4>
+              <p class="editable" data-id="tec-area5">Área Ciencias de la Salud</p>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="tecnicatura6">Tecnicatura en Anatomía Patológica</h4>
+              <p class="editable" data-id="tec-area6">Área Ciencias de la Salud</p>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="tecnicatura7">Tecnicatura en Deportes</h4>
+              <p class="editable" data-id="tec-area7">Área Ciencias de la Salud</p>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="tecnicatura8">Tecnicatura en Hemoterapia</h4>
+              <p class="editable" data-id="tec-area8">Área Ciencias de la Salud</p>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="tecnicatura9">Tecnicatura en Salud Ocupacional</h4>
+              <p class="editable" data-id="tec-area9">Área Ciencias de la Salud</p>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="tecnicatura10">Tecnicatura en Podología</h4>
+              <p class="editable" data-id="tec-area10">Área Ciencias de la Salud</p>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="tecnicatura11">Tecnicatura en Instrumentación Quirúrgica</h4>
+              <p class="editable" data-id="tec-area11">Área Ciencias de la Salud</p>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="tecnicatura12">Tecnicatura en Bienes Culturales</h4>
+              <p class="editable" data-id="tec-area12">Área Social y Artística</p>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="tecnicatura13">Tecnicatura en Tecnologías de la Imagen Fotográfica</h4>
+              <p class="editable" data-id="tec-area13">Área Social y Artística</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carreras-content" id="otros">
+          <h3 class="editable" data-id="otros-title">Otras Opciones</h3>
+          <div class="carreras-grid">
+            <div class="carrera-item">
+              <h4 class="editable" data-id="opcion1">Ciclos iniciales de Biología y Bioquímica</h4>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="opcion2">Ciclos iniciales de Ciencias Sociales</h4>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="opcion3">Ciclos iniciales de Matemáticas</h4>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="opcion4">Ciclos iniciales optativos en Salud</h4>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="opcion5">Ciclos iniciales optativos en área científico tecnológica</h4>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="opcion6">Ciclos iniciales optativos en área social</h4>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="opcion7">Licenciatura en Análisis Alimentario</h4>
+            </div>
+            <div class="carrera-item">
+              <h4 class="editable" data-id="opcion8">Carreras de Tecnología Médica</h4>
+              <p class="editable" data-id="opcion8-desc">(sin restricción de cupos ni prueba de ingreso para el ingreso
+                en Paysandú)</p>
+            </div>
+          </div>
+          <p class="editable" data-id="otros-text" style="margin-top: 20px;">
+            Para más información sobre inscripciones y detalles de cada carrera, se puede consultar el sitio web del
+            <a href="#" class="editable" data-id="cenur-link">Cenur Litoral Norte</a> o el de la
+            <a href="#" class="editable" data-id="udelar-link">Universidad de la República</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería Section -->
+    <section id="galeria" class="galeria">
+      <div class="container">
+        <h2 class="section-title editable" data-id="galeria-title">Galería Multimedia</h2>
+        <div class="galeria-grid">
+          <div class="galeria-item">
+            <img src="https://via.placeholder.com/300x300/6c8ebf/ffffff?text=Foto+1" class="editable-image"
+              data-id="galeria1">
+            <span class="tipo">Foto</span>
+            <button class="add-media-btn"><i class="fas fa-plus"></i></button>
+            <button class="upload-video-btn"><i class="fas fa-video"></i></button>
+            <button class="delete-media-btn"><i class="fas fa-trash"></i></button>
+          </div>
+          <div class="galeria-item">
+            <img src="https://via.placeholder.com/300x300/6c8ebf/ffffff?text=Foto+2" class="editable-image"
+              data-id="galeria2">
+            <span class="tipo">Foto</span>
+            <button class="add-media-btn"><i class="fas fa-plus"></i></button>
+            <button class="upload-video-btn"><i class="fas fa-video"></i></button>
+            <button class="delete-media-btn"><i class="fas fa-trash"></i></button>
+          </div>
+          <div class="galeria-item">
+            <video controls>
+              <source src="#" type="video/mp4">
+              Tu navegador no soporta videos.
+            </video>
+            <span class="tipo">Video</span>
+            <button class="add-media-btn"><i class="fas fa-plus"></i></button>
+            <button class="upload-video-btn"><i class="fas fa-video"></i></button>
+            <button class="delete-media-btn"><i class="fas fa-trash"></i></button>
+          </div>
+          <div class="galeria-item">
+            <img src="https://via.placeholder.com/300x300/6c8ebf/ffffff?text=Foto+3" class="editable-image"
+              data-id="galeria3">
+            <span class="tipo">Foto</span>
+            <button class="add-media-btn"><i class="fas fa-plus"></i></button>
+            <button class="upload-video-btn"><i class="fas fa-video"></i></button>
+            <button class="delete-media-btn"><i class="fas fa-trash"></i></button>
+          </div>
+          <div class="galeria-item">
+            <img src="https://via.placeholder.com/300x300/6c8ebf/ffffff?text=Foto+4" class="editable-image"
+              data-id="galeria4">
+            <span class="tipo">Foto</span>
+            <button class="add-media-btn"><i class="fas fa-plus"></i></button>
+            <button class="upload-video-btn"><i class="fas fa-video"></i></button>
+            <button class="delete-media-btn"><i class="fas fa-trash"></i></button>
+          </div>
+          <div class="galeria-item">
+            <img src="https://via.placeholder.com/300x300/6c8ebf/ffffff?text=Foto+5" class="editable-image"
+              data-id="galeria5">
+            <span class="tipo">Foto</span>
+            <button class="add-media-btn"><i class="fas fa-plus"></i></button>
+            <button class="upload-video-btn"><i class="fas fa-video"></i></button>
+            <button class="delete-media-btn"><i class="fas fa-trash"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="servicios">
+      <div class="container">
+        <h2 class="section-title editable" data-id="servicios-title">Nuestros Servicios</h2>
+        <div class="servicios-grid">
+          <div class="servicio-card">
+            <div class="servicio-icon editable-icon" data-id="servicio1-icon"
+              style="background-image: url('https://via.placeholder.com/70x70/4a6fa5/ffffff?text=Libro')">
+              <i class="fas fa-book" style="display: none;"></i>
+            </div>
+            <h3 class="editable" data-id="servicio1-titulo">Biblioteca</h3>
+            <p class="editable" data-id="servicio1-desc">Acceso a libros, apuntes y material de estudio compartido por
+              estudiantes.</p>
+            <button class="ver-mas-btn">Ver más</button>
+            <div class="servicio-detalles">
+              <p class="editable" data-id="servicio1-detalle">La biblioteca cuenta con más de 500 títulos disponibles
+                para préstamo. Horario de atención: Lunes a Viernes de 8:00 a 20:00.</p>
+              <div class="servicio-imagenes">
+                <div class="servicio-imagen">
+                  <img src="https://via.placeholder.com/150/6c8ebf/ffffff?text=Biblioteca+1" class="editable-image"
+                    data-id="servicio1-img1">
+                </div>
+                <div class="servicio-imagen">
+                  <img src="https://via.placeholder.com/150/6c8ebf/ffffff?text=Biblioteca+2" class="editable-image"
+                    data-id="servicio1-img2">
+                </div>
+                <div class="servicio-imagen">
+                  <img src="https://via.placeholder.com/150/6c8ebf/ffffff?text=Biblioteca+3" class="editable-image"
+                    data-id="servicio1-img3">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="servicio-card">
+            <div class="servicio-icon editable-icon" data-id="servicio2-icon"
+              style="background-image: url('https://via.placeholder.com/70x70/4a6fa5/ffffff?text=Camiseta')">
+              <i class="fas fa-tshirt" style="display: none;"></i>
+            </div>
+            <h3 class="editable" data-id="servicio2-titulo">Venta de Indumentaria</h3>
+            <p class="editable" data-id="servicio2-desc">Compra buzos, remeras y accesorios con el logo de la
+              institución.</p>
+            <button class="ver-mas-btn">Ver más</button>
+            <div class="servicio-detalles">
+              <p class="editable" data-id="servicio2-detalle">Contamos con una variedad de productos con el logo
+                institucional. Precios especiales para socios del centro de estudiantes.</p>
+              <div class="servicio-imagenes">
+                <div class="servicio-imagen">
+                  <img src="https://via.placeholder.com/150/6c8ebf/ffffff?text=Indumentaria+1" class="editable-image"
+                    data-id="servicio2-img1">
+                </div>
+                <div class="servicio-imagen">
+                  <img src="https://via.placeholder.com/150/6c8ebf/ffffff?text=Indumentaria+2" class="editable-image"
+                    data-id="servicio2-img2">
+                </div>
+                <div class="servicio-imagen">
+                  <img src="https://via.placeholder.com/150/6c8ebf/ffffff?text=Indumentaria+3" class="editable-image"
+                    data-id="servicio2-img3">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="servicio-card">
+            <div class="servicio-icon editable-icon" data-id="servicio3-icon"
+              style="background-image: url('https://via.placeholder.com/70x70/4a6fa5/ffffff?text=Asesor')">
+              <i class="fas fa-handshake" style="display: none;"></i>
+            </div>
+            <h3 class="editable" data-id="servicio3-titulo">Asesoramiento</h3>
+            <p class="editable" data-id="servicio3-desc">Orientación sobre trámites, becas y derechos estudiantiles.</p>
+            <button class="ver-mas-btn">Ver más</button>
+            <div class="servicio-detalles">
+              <p class="editable" data-id="servicio3-detalle">Ofrecemos asesoramiento personalizado sobre becas,
+                trámites universitarios y derechos estudiantiles. Horario de atención: Martes y Jueves de 14:00 a 18:00.
+              </p>
+              <div class="servicio-imagenes">
+                <div class="servicio-imagen">
+                  <img src="https://via.placeholder.com/150/6c8ebf/ffffff?text=Asesoramiento+1" class="editable-image"
+                    data-id="servicio3-img1">
+                </div>
+                <div class="servicio-imagen">
+                  <img src="https://via.placeholder.com/150/6c8ebf/ffffff?text=Asesoramiento+2" class="editable-image"
+                    data-id="servicio3-img2">
+                </div>
+                <div class="servicio-imagen">
+                  <img src="https://via.placeholder.com/150/6c8ebf/ffffff?text=Asesoramiento+3" class="editable-image"
+                    data-id="servicio3-img3">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="servicio-card">
+            <div class="servicio-icon editable-icon" data-id="servicio4-icon"
+              style="background-image: url('https://via.placeholder.com/70x70/4a6fa5/ffffff?text=Café')">
+              <i class="fas fa-coffee" style="display: none;"></i>
+            </div>
+            <h3 class="editable" data-id="servicio4-titulo">Cafetería</h3>
+            <p class="editable" data-id="servicio4-desc">Descuentos especiales para socios del centro de estudiantes.
+            </p>
+            <button class="ver-mas-btn">Ver más</button>
+            <div class="servicio-detalles">
+              <p class="editable" data-id="servicio4-detalle">La cafetería ofrece descuentos del 20% para socios del
+                centro de estudiantes. Menú variado con opciones saludables.</p>
+              <div class="servicio-imagenes">
+                <div class="servicio-imagen">
+                  <img src="https://via.placeholder.com/150/6c8ebf/ffffff?text=Cafetería+1" class="editable-image"
+                    data-id="servicio4-img1">
+                </div>
+                <div class="servicio-imagen">
+                  <img src="https://via.placeholder.com/150/6c8ebf/ffffff?text=Cafetería+2" class="editable-image"
+                    data-id="servicio4-img2">
+                </div>
+                <div class="servicio-imagen">
+                  <img src="https://via.placeholder.com/150/6c8ebf/ffffff?text=Cafetería+3" class="editable-image"
+                    data-id="servicio4-img3">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cogobierno Section -->
+        <div class="cogobierno-info" style="margin-top: 60px;">
+          <h2 class="section-title editable" data-id="cogobierno-title">Cogobierno Universitario</h2>
+          <p class="editable" data-id="cogobierno-text">
+            El cogobierno es un principio fundamental de la Universidad de la República que establece la participación
+            de todos los estamentos universitarios (estudiantes, docentes y egresados) en la toma de decisiones. En el
+            Centro de Estudiantes CECUP, promovemos la participación activa de los estudiantes en los órganos de
+            cogobierno.
+          </p>
+
+          <div class="cogobierno-grid">
+            <div class="cogobierno-card">
+              <div class="servicio-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <h3 class="editable" data-id="cogobierno1">Asamblea General</h3>
+              <p class="editable" data-id="cogobierno1-desc">Máximo órgano de gobierno de la Universidad</p>
+            </div>
+            <div class="cogobierno-card">
+              <div class="servicio-icon">
+                <i class="fas fa-university"></i>
+              </div>
+              <h3 class="editable" data-id="cogobierno2">Consejos de Facultad</h3>
+              <p class="editable" data-id="cogobierno2-desc">Órganos de gobierno a nivel de cada servicio universitario
+              </p>
+            </div>
+            <div class="cogobierno-card">
+              <div class="servicio-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <h3 class="editable" data-id="cogobierno3">Representación Estudiantil</h3>
+              <p class="editable" data-id="cogobierno3-desc">Los estudiantes eligen a sus representantes para participar
+                en el cogobierno</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Motivos de Sanción -->
+    <section id="sanciones" class="sanciones-section">
+      <div class="container">
+        <h2 class="section-title editable" data-id="sanciones-title">Motivos de Sanción</h2>
+        <div class="sanciones-grid">
+          <div class="sancion-card">
+            <h3 class="editable" data-id="sancion1-title">Falta de asistencia</h3>
+            <p class="editable" data-id="sancion1-text">Ausencias injustificadas a clases o actividades obligatorias
+              pueden resultar en sanciones académicas.</p>
+          </div>
+          <div class="sancion-card">
+            <h3 class="editable" data-id="sancion2-title">Conducta inapropiada</h3>
+            <p class="editable" data-id="sancion2-text">Comportamiento disruptivo o irrespetuoso dentro de las
+              instalaciones universitarias.</p>
+          </div>
+          <div class="sancion-card">
+            <h3 class="editable" data-id="sancion3-title">Plagio académico</h3>
+            <p class="editable" data-id="sancion3-text">Uso no autorizado de material protegido sin la debida atribución
+              en trabajos académicos.</p>
+          </div>
+          <div class="sancion-card">
+            <h3 class="editable" data-id="sancion4-title">Fraude en evaluaciones</h3>
+            <p class="editable" data-id="sancion4-text">Copia o intento de copia durante exámenes o evaluaciones
+              académicas.</p>
+          </div>
+          <div class="sancion-card">
+            <h3 class="editable" data-id="sancion5-title">Daño a propiedad universitaria</h3>
+            <p class="editable" data-id="sancion5-text">Destrucción o daño intencional a instalaciones, equipos o
+              materiales de la universidad.</p>
+          </div>
+          <div class="sancion-card">
+            <h3 class="editable" data-id="sancion6-title">Incumplimiento de normas</h3>
+            <p class="editable" data-id="sancion6-text">Violación de las normas y reglamentos establecidos por la
+              institución.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Elecciones Universitarias -->
+    <section id="elecciones" class="elecciones-section">
+      <div class="container">
+        <h2 class="section-title editable" data-id="elecciones-title">Elecciones Universitarias</h2>
+
+        <!-- Portada de Elecciones -->
+        <div class="elecciones-cover">
+          <div class="particles" id="elecciones-particles"></div>
+          <div class="cover-content">
+            <h1 class="editable" data-id="elecciones-portada-title">Participa en las Elecciones Universitarias</h1>
+            <p class="editable" data-id="elecciones-portada-text">Tu voto es fundamental para la representación
+              estudiantil en los órganos de cogobierno</p>
+            <div class="hero-buttons">
+              <a href="#elecciones-info" class="btn">Conoce más</a>
+              <a href="#elecciones-calendario" class="btn btn-secondary">Calendario Electoral</a>
+            </div>
+          </div>
+          <button class="change-cover-btn" id="changeEleccionesCoverBtn"><i class="fas fa-camera"></i> Cambiar
+            Imagen</button>
+        </div>
+
+        <div class="elecciones-content" id="elecciones-info">
+          <div class="elecciones-info">
+            <h3 class="editable" data-id="elecciones-subtitle">Sobre las Elecciones Universitarias</h3>
+            <p class="editable" data-id="elecciones-text1">
+              Las elecciones universitarias son el mecanismo mediante el cual los estudiantes eligen a sus
+              representantes ante los órganos de cogobierno de la Universidad de la República.
+            </p>
+            <p class="editable" data-id="elecciones-text2">
+              Los estudiantes pueden votar y ser votados para representar a sus compañeros en diferentes espacios de
+              decisión, como el Consejo de Facultad, la Asamblea General del Claustro y el Consejo Directivo Central.
+            </p>
+            <p class="editable" data-id="elecciones-text3">
+              La participación en las elecciones es un derecho y una responsabilidad de todos los estudiantes, ya que a
+              través de este mecanismo se definen las políticas y decisiones que afectan directamente la vida
+              universitaria.
+            </p>
+          </div>
+          <div class="elecciones-image">
+            <img src="https://via.placeholder.com/500x350/6c8ebf/ffffff?text=Elecciones+Universitarias"
+              alt="Elecciones Universitarias" class="editable-image" data-id="elecciones-image">
+          </div>
+        </div>
+
+        <div class="elecciones-grid">
+          <div class="elecciones-card">
+            <div class="servicio-icon">
+              <i class="fas fa-vote-yea"></i>
+            </div>
+            <h3 class="editable" data-id="elecciones-card1-title">¿Quiénes pueden votar?</h3>
+            <p class="editable" data-id="elecciones-card1-text">Todos los estudiantes regulares de la Universidad de la
+              República pueden ejercer su derecho al voto.</p>
+          </div>
+          <div class="elecciones-card">
+            <div class="servicio-icon">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <h3 class="editable" data-id="elecciones-card2-title">¿Quiénes pueden ser candidatos?</h3>
+            <p class="editable" data-id="elecciones-card2-text">Estudiantes regulares que cumplan con los requisitos
+              establecidos en el reglamento electoral.</p>
+          </div>
+          <div class="elecciones-card">
+            <div class="servicio-icon">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h3 class="editable" data-id="elecciones-card3-title">¿Cuándo son las elecciones?</h3>
+            <p class="editable" data-id="elecciones-card3-text">Se realizan anualmente, generalmente en el segundo
+              semestre del año.</p>
+          </div>
+        </div>
+
+        <div class="elecciones-timeline" id="elecciones-calendario">
+          <h3 class="section-title editable" data-id="elecciones-calendario-title">Calendario Electoral 2025</h3>
+
+          <div class="timeline-item">
+            <div class="timeline-date editable" data-id="elecciones-fecha1">15 de Agosto</div>
+            <div class="timeline-content">
+              <h4 class="editable" data-id="elecciones-evento1">Apertura de inscripción de listas</h4>
+              <p class="editable" data-id="elecciones-evento1-desc">Período para que los estudiantes conformen sus
+                listas y presenten la documentación requerida.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date editable" data-id="elecciones-fecha2">30 de Agosto</div>
+            <div class="timeline-content">
+              <h4 class="editable" data-id="elecciones-evento2">Cierre de inscripciones</h4>
+              <p class="editable" data-id="elecciones-evento2-desc">Fecha límite para presentar las listas de
+                candidatos.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date editable" data-id="elecciones-fecha3">10-14 de Septiembre</div>
+            <div class="timeline-content">
+              <h4 class="editable" data-id="elecciones-evento3">Campaña electoral</h4>
+              <p class="editable" data-id="elecciones-evento3-desc">Período para que las listas presenten sus propuestas
+                a la comunidad estudiantil.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date editable" data-id="elecciones-fecha4">17 de Septiembre</div>
+            <div class="timeline-content">
+              <h4 class="editable" data-id="elecciones-evento4">Día de elecciones</h4>
+              <p class="editable" data-id="elecciones-evento4-desc">Jornada electoral para elegir a los representantes
+                estudiantiles.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date editable" data-id="elecciones-fecha5">20 de Septiembre</div>
+            <div class="timeline-content">
+              <h4 class="editable" data-id="elecciones-evento5">Publicación de resultados</h4>
+              <p class="editable" data-id="elecciones-evento5-desc">Divulgación de los resultados oficiales de las
+                elecciones.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cogobierno-info" style="margin-top: 60px;">
+          <h3 class="section-title editable" data-id="elecciones-importancia-title">¿Por qué es importante votar?</h3>
+          <p class="editable" data-id="elecciones-importancia-text">
+            La participación en las elecciones universitarias es fundamental para garantizar una representación
+            estudiantil legítima y fortalecer el cogobierno. Tus representantes tendrán voz y voto en decisiones
+            importantes como:
+          </p>
+          <ul class="editable" data-id="elecciones-importancia-list">
+            <li>Planificación de carreras y planes de estudio</li>
+            <li>Asignación de recursos y presupuesto</li>
+            <li>Políticas de bienestar estudiantil</li>
+            <li>Relaciones con otras instituciones</li>
+            <li>Defensa de los derechos estudiantiles</li>
+          </ul>
+          <p class="editable" data-id="elecciones-importancia-text2" style="margin-top: 20px;">
+            Tu voto es tu voz en la universidad. Participar en las elecciones es ejercer tu derecho a decidir quiénes te
+            representarán en estos espacios de decisión.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección IVU -->
+    <section id="ivu" class="ivu-section">
+      <div class="container">
+        <h2 class="section-title editable" data-id="ivu-title">Introduccion a la Vida Universitaria (IVU)</h2>
+        <div class="ivu-content">
+          <div class="ivu-info">
+            <p class="editable" data-id="ivu-text1">El Instituto de Vida Universitaria (IVU) es un espacio dedicado al
+              desarrollo integral de los estudiantes, ofreciendo actividades culturales, deportivas y de bienestar.</p>
+            <p class="editable" data-id="ivu-text2">Entre los servicios que ofrece el IVU se encuentran:</p>
+            <ul class="editable" data-id="ivu-list">
+              <li>Actividades deportivas y recreativas</li>
+              <li>Talleres culturales y artísticos</li>
+              <li>Apoyo psicológico y orientación estudiantil</li>
+              <li>Espacios de estudio y recreación</li>
+              <li>Programas de voluntariado y extensión universitaria</li>
+            </ul>
+            <p class="editable" data-id="ivu-text3">El IVU está ubicado en el Campus Universitario y abre sus puertas de
+              lunes a viernes de 8:00 a 20:00 horas.</p>
+          </div>
+          <div class="ivu-image">
+            <img src="Imagenes/CECUP/IVU1.JPG" alt="Instituto de Vida Universitaria" class="editable-image"
+              data-id="ivu-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Bedelías -->
+    <section id="bedelias" class="bedelias-section">
+      <div class="container">
+        <h2 class="section-title editable" data-id="bedelias-title">Bedelías</h2>
+        <div class="bedelias-grid">
+          <div class="bedelias-card">
+            <h3 class="editable" data-id="bedelias1-title">Bedelía Central</h3>
+            <p class="editable" data-id="bedelias1-text">La Bedelía Central es el área encargada de los trámites
+              académicos generales, inscripciones a cursos y exámenes, y certificados estudiantiles.</p>
+            <p class="editable" data-id="bedelias1-horario"><strong>Horario de atención:</strong> Lunes a viernes de
+              9:00 a 16:00</p>
+            <p class="editable" data-id="bedelias1-contacto"><strong>Contacto:</strong> bedelia@cenur.edu.uy | Tel: 4722
+              1234 int. 101</p>
+          </div>
+          <div class="bedelias-card">
+            <h3 class="editable" data-id="bedelias2-title">Bedelía de Salud</h3>
+            <p class="editable" data-id="bedelias2-text">Especializada en las carreras del área de la salud, gestiona
+              los trámites específicos de estas disciplinas.</p>
+            <p class="editable" data-id="bedelias2-horario"><strong>Horario de atención:</strong> Lunes a viernes de
+              10:00 a 15:00</p>
+            <p class="editable" data-id="bedelias2-contacto"><strong>Contacto:</strong> bedeliasalud@cenur.edu.uy | Tel:
+              4722 1234 int. 102</p>
+          </div>
+          <div class="bedelias-card">
+            <h3 class="editable" data-id="bedelias3-title">Bedelía de Tecnologías</h3>
+            <p class="editable" data-id="bedelias3-text">Encargada de las carreras tecnológicas y de ingeniería,
+              gestiona los trámites específicos de estas disciplinas.</p>
+            <p class="editable" data-id="bedelias3-horario"><strong>Horario de atención:</strong> Lunes a viernes de
+              9:00 a 17:00</p>
+            <p class="editable" data-id="bedelias3-contacto"><strong>Contacto:</strong> bedeliatecno@cenur.edu.uy | Tel:
+              4722 1234 int. 103</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección CECUP -->
+    <section id="cecup" class="cecup-section">
+      <div class="container">
+        <h2 class="section-title editable" data-id="cecup-title">Sobre el Centro de Estudiantes CECUP</h2>
+        <div class="cecup-content">
+          <div class="cecup-info">
+            <p class="editable" data-id="cecup-text1">El Centro de Estudiantes del Cenur Litoral Norte Sede Paysandú
+              (CECUP) es el órgano representativo de los estudiantes ante las autoridades universitarias y la sociedad.
+            </p>
+            <p class="editable" data-id="cecup-text2">Nuestros objetivos principales son:</p>
+            <ul class="editable" data-id="cecup-list">
+              <li>Defender los derechos e intereses de los estudiantes</li>
+              <li>Promover la participación estudiantil en el cogobierno</li>
+              <li>Organizar actividades académicas, culturales y recreativas</li>
+              <li>Facilitar la integración de los estudiantes a la vida universitaria</li>
+              <li>Representar a los estudiantes ante las autoridades universitarias</li>
+            </ul>
+            <p class="editable" data-id="cecup-text3">El Centro de Estudiantes CECUP está conformado por estudiantes
+              voluntarios de diversas carreras que trabajan para mejorar la experiencia universitaria de todos.</p>
+          </div>
+          <div class="cecup-image">
+            <img src="Imagenes/cecup.jpg" alt="Centro de Estudiantes" class="editable-image" data-id="cecup-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contacto">
+      <div class="container">
+        <h2 class="section-title editable" data-id="contacto-title">Contacto</h2>
+        <div class="contacto-content">
+          <div class="contacto-info">
+            <h3 class="editable" data-id="contacto-subtitle">Estamos aquí para ayudarte</h3>
+            <p class="editable" data-id="contacto-text">Si tienes alguna pregunta, sugerencia o necesitas asistencia, no
+              dudes en contactarnos.</p>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="editable" data-id="contacto-direccion">Florida 1065, esquina Montevideo, Paysandú</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <span class="editable" data-id="contacto-email">estudiantesccup@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <span class="editable" data-id="contacto-telefono">+598 4722 1234</span>
+            </div>
+            <div class="redes-sociales">
+              <a href="#" class="red-social"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/estudiantes.cup/" class="red-social"><i
+                  class="fab fa-instagram"></i></a>
+              <a href="#" class="red-social"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="red-social"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="contacto-form">
+
+            <!-- ...dentro de <div class="contacto-form">... -->
+            <form id="formulario-contacto" action="https://formsubmit.co/estudiantesccup@gmail.com" method="POST">
+              <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="Nombre" required>
+              </div>
+              <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="Apellido" required>
+              </div>
+              <div class="form-group">
+                <label for="carrera">Carrera:</label>
+                <input type="text" id="carrera" name="Carrera" required>
+              </div>
+              <div class="form-group">
+                <label for="mail">Mail:</label>
+                <input type="email" id="mail" name="Mail" required>
+              </div>
+              <div class="form-group">
+                <label for="celular">Celular:</label>
+                <input type="tel" id="celular" name="Celular" required>
+              </div>
+              <div class="form-group">
+                <label for="consulta">Consulta:</label>
+                <textarea id="consulta" name="Consulta" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn" style="width: 100%;">Contactar</button>
+            </form>
+            <!-- Proceso de Inscripción -->
+
+            <!-- Sección FEUU -->
+
+          </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cogobierno-info" style="margin-top: 60px;">
+          <h2 class="section-title editable" data-id="inscripcion-title">Proceso de Inscripción 2025</h2>
+          <div class="carrera-item">
+            <h3 class="editable" data-id="inscripcion-subtitle">Fechas importantes</h3>
+            <ul>
+              <li class="editable" data-id="inscripcion1">Inscripciones: del 5 al 26 de febrero de 2025</li>
+              <li class="editable" data-id="inscripcion2">Espacio de información: desde el 20 de enero de 2025</li>
+              <li class="editable" data-id="inscripcion3">Inicio de clases: 3 de marzo de 2025</li>
+            </ul>
+          </div>
+          <div class="carrera-item" style="margin-top: 20px;">
+            <h3 class="editable" data-id="requisitos-title">Requisitos generales</h3>
+            <p class="editable" data-id="requisitos-text">Los interesados deberán presentar documentación personal y
+              académica según corresponda a cada carrera. Para más información, contactar con Bedelías.</p>
+          </div>
+          <div class="carrera-item" style="margin-top: 20px;">
+            <h3 class="editable" data-id="formas-title">Formas de inscripción</h3>
+            <p class="editable" data-id="formas-text">Las inscripciones se realizarán de forma online a través del
+              portal de la Universidad o presencialmente en Bedelías.</p>
+          </div>
+        </div>
+        <!-- Sección FEUU -->
+        <div class="cogobierno-info" style="margin-top: 30px;">
+          <h2 class="section-title editable" data-id="feuu-title">FEUU</h2>
+          <p class="editable" data-id="feuu-text">
+            La Federación de Estudiantes Universitarios del Uruguay (FEUU) es la organización que agrupa a los
+            centros
+            de estudiantes de la Universidad de la República. El CECUP forma parte activa de la FEUU, participando
+            en
+            sus congresos y actividades.
+          </p>
+        </div>
+    </section>
+    <!-- Proceso de Inscripción -->
+
+
+    <!-- Hero Section Final - Portada Completa -->
+    <section class="final-hero">
+      <div class="container">
+        <h2 class="editable" data-id="final-hero-title">Únete a nuestra comunidad estudiantil</h2>
+        <p class="editable" data-id="final-hero-text">Forma parte del Centro de Estudiantes CECUP y participa en las
+          actividades que organizamos para mejorar tu experiencia universitaria.</p>
+        <div class="hero-buttons">
+          <a href="#contacto" class="btn">Contáctanos</a>
+          <a href="#servicios" class="btn btn-secondary">Conoce nuestros servicios</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="Imagenes/logo_nombre.jpg" alt="Centro de Estudiantes CECUP Logo">
+            <span>Centro de Estudiantes CECUP</span>
+          </div>
+          <div class="footer-links">
+            <h3>Enlaces Rápidos</h3>
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#noticias">Noticias</a></li>
+              <li><a href="#eventos">Eventos</a></li>
+              <li><a href="#carreras">Carreras</a></li>
+              <li><a href="#galeria">Galería</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#sanciones">Sanciones</a></li>
+              <li><a href="#elecciones">Elecciones</a></li>
+              <li><a href="#ivu">IVU</a></li>
+              <li><a href="#bedelias">Bedelías</a></li>
+              <li><a href="#cecup">CECUP</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Síguenos</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/estudiantes.cup/"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Centro de Estudiantes CECUP - Cenur Litoral Norte Sede Paysandú. Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Botón de volver arriba -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Modal de edición (oculto inicialmente) -->
+    <div id="editModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Editar Contenido</h2>
+        <div class="form-group">
+          <label for="editContent">Contenido:</label>
+          <textarea id="editContent" rows="5"></textarea>
+        </div>
+        <div class="form-group image-upload" style="display:none;">
+          <label for="editImage">Cambiar imagen:</label>
+          <input type="file" id="editImage" accept="image/*,video/*">
+        </div>
+        <div class="modal-buttons">
+          <button id="saveChanges" class="btn">Guardar Cambios</button>
+          <button id="saveAndExit" class="btn btn-secondary">Guardar y Salir</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal de Login (oculto inicialmente) -->
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="login-box">
+          <h2>Acceso de Administrador</h2>
+          <form id="loginForm">
+            <div class="form-group">
+              <label for="username">Usuario:</label>
+              <input type="text" id="username" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Contraseña:</label>
+              <input type="password" id="password" required>
+            </div>
+            <button type="submit" class="btn">Iniciar Sesión</button>
+            <div id="loginError" class="login-error" style="display: none;">Usuario o contraseña incorrectos</div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para subir videos -->
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Subir Video</h2>
+        <div class="form-group">
+          <label for="videoFile">Seleccionar video:</label>
+          <input type="file" id="videoFile" accept="video/*">
+        </div>
+        <div class="form-group">
+          <label for="videoTitle">Título del video:</label>
+          <input type="text" id="videoTitle" placeholder="Ingrese el título del video">
+        </div>
+        <div class="modal-buttons">
+          <button id="uploadVideo" class="btn">Subir Video</button>
+          <button id="cancelVideo" class="btn btn-secondary">Cancelar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal de confirmación para eliminar -->
+    <div id="confirmDeleteModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Confirmar Eliminación</h2>
+        <p>¿Estás seguro que deseas eliminar este elemento de la galería?</p>
+        <div class="modal-buttons">
+          <button id="confirmDelete" class="btn" style="background-color: var(--danger-color);">Eliminar</button>
+          <button id="cancelDelete" class="btn btn-secondary">Cancelar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para cambiar imagen de portada -->
+    <div id="coverModal" class="cover-modal">
+      <div class="cover-modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Cambiar Imagen de Portada</h2>
+        <div class="form-group">
+          <label for="coverImageUrl">URL de la nueva imagen:</label>
+          <input type="text" id="coverImageUrl" placeholder="Ingresa la URL de la imagen" class="form-control">
+        </div>
+        <p>O</p>
+        <div class="form-group">
+          <label for="coverImageUpload">Subir imagen desde tu dispositivo:</label>
+          <input type="file" id="coverImageUpload" accept="image/*" class="form-control">
+        </div>
+        <div class="modal-buttons" style="margin-top: 20px;">
+          <button id="saveCoverImage" class="btn">Guardar Cambios</button>
+          <button id="cancelCoverChange" class="btn btn-secondary">Cancelar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para cambiar imagen de portada de elecciones -->
+    <div id="eleccionesCoverModal" class="cover-modal">
+      <div class="cover-modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Cambiar Imagen de Portada de Elecciones</h2>
+        <div class="form-group">
+          <label for="eleccionesCoverImageUrl">URL de la nueva imagen:</label>
+          <input type="text" id="eleccionesCoverImageUrl" placeholder="Ingresa la URL de la imagen"
+            class="form-control">
+        </div>
+        <p>O</p>
+        <div class="form-group">
+          <label for="eleccionesCoverImageUpload">Subir imagen desde tu dispositivo:</label>
+          <input type="file" id="eleccionesCoverImageUpload" accept="image/*" class="form-control">
+        </div>
+        <div class="modal-buttons" style="margin-top: 20px;">
+          <button id="saveEleccionesCoverImage" class="btn">Guardar Cambios</button>
+          <button id="cancelEleccionesCoverChange" class="btn btn-secondary">Cancelar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para editar iconos de servicios -->
+    <div id="iconModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Editar Icono de Servicio</h2>
+        <div class="form-group">
+          <label for="iconImageUrl">URL de la nueva imagen:</label>
+          <input type="text" id="iconImageUrl" placeholder="Ingresa la URL de la imagen" class="form-control">
+        </div>
+        <p>O</p>
+        <div class="form-group">
+          <label for="iconImageUpload">Subir imagen desde tu dispositivo:</label>
+          <input type="file" id="iconImageUpload" accept="image/*" class="form-control">
+        </div>
+        <div class="modal-buttons" style="margin-top: 20px;">
+          <button id="saveIconImage" class="btn">Guardar Cambios</button>
+          <button id="cancelIconChange" class="btn btn-secondary">Cancelar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal para editar imagen del carrusel -->
+    <div id="carouselImgModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Cambiar Imagen del Carrusel</h2>
+        <div class="form-group">
+          <label for="carouselImgUrl">URL de la nueva imagen:</label>
+          <input type="text" id="carouselImgUrl" placeholder="Ingresa la URL de la imagen" class="form-control">
+        </div>
+        <p>O</p>
+        <div class="form-group">
+          <label for="carouselImgUpload">Subir imagen desde tu dispositivo:</label>
+          <input type="file" id="carouselImgUpload" accept="image/*" class="form-control">
+        </div>
+        <div class="modal-buttons" style="margin-top: 20px;">
+          <button id="saveCarouselImg" class="btn">Guardar Cambios</button>
+          <button id="cancelCarouselImg" class="btn btn-secondary">Cancelar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox para imágenes y videos ampliados -->
+    <div id="lightbox" class="lightbox">
+      <span class="lightbox-close">&times;</span>
+      <div class="lightbox-content">
+        <img src="" alt="" id="lightbox-image">
+        <video controls id="lightbox-video" style="display: none;">
+          <source src="" type="video/mp4">
+          Tu navegador no soporta videos.
+        </video>
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+      </div>
+      <div class="lightbox-nav">
+        <div class="lightbox-prev" id="lightbox-prev"><i class="fas fa-chevron-left"></i></div>
+        <div class="lightbox-next" id="lightbox-next"><i class="fas fa-chevron-right"></i></div>
+      </div>
+    </div>
+
+    <script src="ani.js"></script>
+  </body>
+
+</html>
